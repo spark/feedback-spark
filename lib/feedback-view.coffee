@@ -8,19 +8,19 @@ class SupportInfoView extends View
       @ul =>
         @li =>
           @div class: 'text-highlight', "Found a Bug:"
-          @span " Most of Atom's functionality comes from open source packages (e.g. "
+          @span " Most of Spark IDE's functionality comes from open source packages (e.g. "
           @a href: 'http://github.com/atom/find-and-replace', 'Find And Replace'
           @span " and "
           @a href: 'http://github.com/atom/settings-view', 'Settings'
           @span ".) "
           @a href: 'https://atom.io/packages', 'Find the related package'
-          @span " and create an issue on the package's GitHub repo. Bugs related to Atom's core can be opened on the "
-          @a href: 'http://github.com/atom/atom', 'Atom repo'
+          @span " and create an issue on the package's GitHub repo. Bugs related to Spark IDE's core can be opened on the "
+          @a href: 'http://github.com/spark/spark-ide', 'Spark IDE repo'
           @span "."
         @li =>
           @div class: 'text-highlight', "Feature Request:"
           @span " Start a Topic on "
-          @a href: 'http://discuss.atom.io', 'discuss.atom.io'
+          @a href: 'https://community.spark.io/', 'community.spark.io'
           @span "."
 
         @li =>
