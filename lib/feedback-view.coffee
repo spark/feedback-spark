@@ -26,7 +26,7 @@ class SupportInfoView extends View
         @li =>
           @div class: 'text-highlight', "Sensitive Information:"
           @span "If you have any concerns you would like to share privately, email "
-          @a href: 'mailto:support@atom.io', 'atom@github.com'
+          @a href: 'mailto:hello@spark.io', 'hello@spark.io'
           @span "."
 
   initialize: ->
