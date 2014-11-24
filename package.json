@@ -1,7 +1,7 @@
 {
   "name": "feedback-spark",
   "main": "./lib/feedback",
-  "version": "0.34.0",
+  "version": "0.35.0",
   "private": true,
   "description": "Sends feedback to ide@spark.io",
   "repository": "https://github.com/spark/feedback-spark",

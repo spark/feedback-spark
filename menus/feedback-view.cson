@@ -1,0 +1,13 @@
+'menu': [
+  {
+    'label': 'Help',
+    'submenu': [
+      {
+        'label': 'Send Feedback',
+        'command': 'feedback:show'
+      }
+    ]
+  }
+],
+'context-menu':
+  'atom-workspace': []
