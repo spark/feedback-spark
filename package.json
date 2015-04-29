@@ -1,7 +1,7 @@
 {
   "name": "feedback-spark",
   "main": "./lib/feedback",
-  "version": "0.35.0",
+  "version": "0.38.0",
   "private": true,
   "description": "Sends feedback to ide@spark.io",
   "repository": "https://github.com/spark/feedback-spark",
@@ -9,9 +9,20 @@
   "engines": {
     "atom": ">0.50.0"
   },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "metrics-reporter": {
+      "versions": {
+        "^1.0.0": "consumeReporter"
+      }
+    }
+  },
   "dependencies": {
-    "temp": "0.6.0",
-    "q": "1.0.x",
-    "request": "2.27.0"
+    "crc": "^3.1.0",
+    "jquery": "^2.0"
   }
 }
