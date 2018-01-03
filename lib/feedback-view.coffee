@@ -15,7 +15,7 @@ class SupportInfoView extends View
           @span ".) "
           @a href: 'https://atom.io/packages', 'Find the related package'
           @span " and create an issue on the package's GitHub repo. Bugs related to Spark Dev's core can be opened on the "
-          @a href: 'http://github.com/spark/spark-dev', 'Spark Dev repo'
+          @a href: 'http://github.com/particle-iot/spark-dev', 'Spark Dev repo'
           @span "."
         @li =>
           @div class: 'text-highlight', "Feature Request:"

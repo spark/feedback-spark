@@ -4,7 +4,7 @@
   "version": "0.38.0",
   "private": true,
   "description": "Sends feedback to ide@spark.io",
-  "repository": "https://github.com/spark/feedback-spark",
+  "repository": "https://github.com/particle-iot/feedback-spark",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
